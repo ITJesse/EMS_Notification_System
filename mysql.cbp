@@ -13,10 +13,10 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="D:/mysql/include" />
+					<Add directory="./include" />
 				</Compiler>
 				<Linker>
-					<Add library="D:\mysql\lib\opt\libmysql.lib" />
+					<Add library=".\lib\opt\libmysql.lib" />
 				</Linker>
 			</Target>
 			<Target title="Release">
