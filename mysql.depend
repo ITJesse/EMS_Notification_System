@@ -1,4 +1,4 @@
-# depslib dependency file v1.0
+ï»¿# depslib dependency file v1.0
 1360774770 source:d:\hs\mysql\main.cpp
 	<stdio.h>
 	"get.h"
@@ -37,20 +37,20 @@
 
 1360760258 d:\hs\mysql\mysql_config.h
 
-1360777513 source:d:\Îäºº´óÕşÂ¼Èë¹¤³ÌÈí¼ş\mysql\main.cpp
+1360777513 source:d:\æ­¦æ±‰å¤§æ”¿å½•å…¥å·¥ç¨‹è½¯ä»¶\mysql\main.cpp
 	<stdio.h>
 	"get.h"
 
-1360777087 d:\Îäºº´óÕşÂ¼Èë¹¤³ÌÈí¼ş\mysql\get.h
+1360777087 d:\æ­¦æ±‰å¤§æ”¿å½•å…¥å·¥ç¨‹è½¯ä»¶\mysql\get.h
 	"mysql_manager.h"
 
-1360777087 d:\Îäºº´óÕşÂ¼Èë¹¤³ÌÈí¼ş\mysql\mysql_manager.h
+1360777087 d:\æ­¦æ±‰å¤§æ”¿å½•å…¥å·¥ç¨‹è½¯ä»¶\mysql\mysql_manager.h
 	<winsock2.h>
 	"./include/mysql.h"
 	"mysql_config.h"
 	<windows.h>
 
-1129991724 d:\Îäºº´óÕşÂ¼Èë¹¤³ÌÈí¼ş\mysql\include\mysql.h
+1129991724 d:\æ­¦æ±‰å¤§æ”¿å½•å…¥å·¥ç¨‹è½¯ä»¶\mysql\include\mysql.h
 	<sys/types.h>
 	<winsock.h>
 	"mysql_com.h"
@@ -60,35 +60,35 @@
 	"my_list.h"
 	"my_alloc.h"
 
-1129991724 d:\Îäºº´óÕşÂ¼Èë¹¤³ÌÈí¼ş\mysql\include\mysql_com.h
+1129991724 d:\æ­¦æ±‰å¤§æ”¿å½•å…¥å·¥ç¨‹è½¯ä»¶\mysql\include\mysql_com.h
 
-1129991724 d:\Îäºº´óÕşÂ¼Èë¹¤³ÌÈí¼ş\mysql\include\mysql_time.h
+1129991724 d:\æ­¦æ±‰å¤§æ”¿å½•å…¥å·¥ç¨‹è½¯ä»¶\mysql\include\mysql_time.h
 
-1129991724 d:\Îäºº´óÕşÂ¼Èë¹¤³ÌÈí¼ş\mysql\include\mysql_version.h
+1129991724 d:\æ­¦æ±‰å¤§æ”¿å½•å…¥å·¥ç¨‹è½¯ä»¶\mysql\include\mysql_version.h
 	<custom_conf.h>
 
-1129991726 d:\Îäºº´óÕşÂ¼Èë¹¤³ÌÈí¼ş\mysql\include\typelib.h
+1129991726 d:\æ­¦æ±‰å¤§æ”¿å½•å…¥å·¥ç¨‹è½¯ä»¶\mysql\include\typelib.h
 
-1129991726 d:\Îäºº´óÕşÂ¼Èë¹¤³ÌÈí¼ş\mysql\include\my_list.h
+1129991726 d:\æ­¦æ±‰å¤§æ”¿å½•å…¥å·¥ç¨‹è½¯ä»¶\mysql\include\my_list.h
 
-1129991724 d:\Îäºº´óÕşÂ¼Èë¹¤³ÌÈí¼ş\mysql\include\my_alloc.h
+1129991724 d:\æ­¦æ±‰å¤§æ”¿å½•å…¥å·¥ç¨‹è½¯ä»¶\mysql\include\my_alloc.h
 
-1360760258 d:\Îäºº´óÕşÂ¼Èë¹¤³ÌÈí¼ş\mysql\mysql_config.h
+1360760258 d:\æ­¦æ±‰å¤§æ”¿å½•å…¥å·¥ç¨‹è½¯ä»¶\mysql\mysql_config.h
 
-1360830802 source:c:\users\zym\desktop\Îäºº´óÕş¹¤³Ì\Í¨ÖªÏµÍ³¹¤³Ì\main.cpp
+1360830802 source:c:\users\zym\desktop\æ­¦æ±‰å¤§æ”¿å·¥ç¨‹\é€šçŸ¥ç³»ç»Ÿå·¥ç¨‹\main.cpp
 	<stdio.h>
 	"get.h"
 
-1360830641 c:\users\zym\desktop\Îäºº´óÕş¹¤³Ì\Í¨ÖªÏµÍ³¹¤³Ì\get.h
+1360830641 c:\users\zym\desktop\æ­¦æ±‰å¤§æ”¿å·¥ç¨‹\é€šçŸ¥ç³»ç»Ÿå·¥ç¨‹\get.h
 	"mysql_manager.h"
 
-1360777088 c:\users\zym\desktop\Îäºº´óÕş¹¤³Ì\Í¨ÖªÏµÍ³¹¤³Ì\mysql_manager.h
+1360777088 c:\users\zym\desktop\æ­¦æ±‰å¤§æ”¿å·¥ç¨‹\é€šçŸ¥ç³»ç»Ÿå·¥ç¨‹\mysql_manager.h
 	<winsock2.h>
 	"./include/mysql.h"
 	"mysql_config.h"
 	<windows.h>
 
-1129991724 c:\users\zym\desktop\Îäºº´óÕş¹¤³Ì\Í¨ÖªÏµÍ³¹¤³Ì\include\mysql.h
+1129991724 c:\users\zym\desktop\æ­¦æ±‰å¤§æ”¿å·¥ç¨‹\é€šçŸ¥ç³»ç»Ÿå·¥ç¨‹\include\mysql.h
 	<sys/types.h>
 	<winsock.h>
 	"mysql_com.h"
@@ -98,18 +98,18 @@
 	"my_list.h"
 	"my_alloc.h"
 
-1129991724 c:\users\zym\desktop\Îäºº´óÕş¹¤³Ì\Í¨ÖªÏµÍ³¹¤³Ì\include\mysql_com.h
+1129991724 c:\users\zym\desktop\æ­¦æ±‰å¤§æ”¿å·¥ç¨‹\é€šçŸ¥ç³»ç»Ÿå·¥ç¨‹\include\mysql_com.h
 
-1129991724 c:\users\zym\desktop\Îäºº´óÕş¹¤³Ì\Í¨ÖªÏµÍ³¹¤³Ì\include\mysql_time.h
+1129991724 c:\users\zym\desktop\æ­¦æ±‰å¤§æ”¿å·¥ç¨‹\é€šçŸ¥ç³»ç»Ÿå·¥ç¨‹\include\mysql_time.h
 
-1129991724 c:\users\zym\desktop\Îäºº´óÕş¹¤³Ì\Í¨ÖªÏµÍ³¹¤³Ì\include\mysql_version.h
+1129991724 c:\users\zym\desktop\æ­¦æ±‰å¤§æ”¿å·¥ç¨‹\é€šçŸ¥ç³»ç»Ÿå·¥ç¨‹\include\mysql_version.h
 	<custom_conf.h>
 
-1129991726 c:\users\zym\desktop\Îäºº´óÕş¹¤³Ì\Í¨ÖªÏµÍ³¹¤³Ì\include\typelib.h
+1129991726 c:\users\zym\desktop\æ­¦æ±‰å¤§æ”¿å·¥ç¨‹\é€šçŸ¥ç³»ç»Ÿå·¥ç¨‹\include\typelib.h
 
-1129991726 c:\users\zym\desktop\Îäºº´óÕş¹¤³Ì\Í¨ÖªÏµÍ³¹¤³Ì\include\my_list.h
+1129991726 c:\users\zym\desktop\æ­¦æ±‰å¤§æ”¿å·¥ç¨‹\é€šçŸ¥ç³»ç»Ÿå·¥ç¨‹\include\my_list.h
 
-1129991724 c:\users\zym\desktop\Îäºº´óÕş¹¤³Ì\Í¨ÖªÏµÍ³¹¤³Ì\include\my_alloc.h
+1129991724 c:\users\zym\desktop\æ­¦æ±‰å¤§æ”¿å·¥ç¨‹\é€šçŸ¥ç³»ç»Ÿå·¥ç¨‹\include\my_alloc.h
 
-1360760260 c:\users\zym\desktop\Îäºº´óÕş¹¤³Ì\Í¨ÖªÏµÍ³¹¤³Ì\mysql_config.h
+1360760260 c:\users\zym\desktop\æ­¦æ±‰å¤§æ”¿å·¥ç¨‹\é€šçŸ¥ç³»ç»Ÿå·¥ç¨‹\mysql_config.h
 
