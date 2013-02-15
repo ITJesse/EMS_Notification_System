@@ -1,18 +1,18 @@
-#include "mysql_manager.h"
+ï»¿#include "mysql_manager.h"
 
-MYSQL_ROW result_row; /*°´ĞĞ·µ»ØµÄ²éÑ¯ĞÅÏ¢*/
+MYSQL_ROW result_row; /*æŒ‰è¡Œè¿”å›çš„æŸ¥è¯¢ä¿¡æ¯*/
 
 int get()
 {
-    MYSQL_FIELD *field; /*×Ö¶Î½á¹¹Ö¸Õë*/
-    printf("ÕıÔÚ¼ìË÷ÖĞ£¬ÇëÉÔºò¡­¡­");
+    MYSQL_FIELD *field; /*å­—æ®µç»“æ„æŒ‡é’ˆ*/
+    printf("æ­£åœ¨æ£€ç´¢ä¸­ï¼Œè¯·ç¨å€™â€¦â€¦");
     system("cls");
         char* sql;
         sql="SELECT * FROM dz_announce ORDER BY id DESC";
         query_sql(sql);
         if (res_opt)
         {
-            /*°´ĞĞÊä³ö½Y¹û*/
+            /*æŒ‰è¡Œè¾“å‡ºçµæœ*/
             result_row = mysql_fetch_row(res_opt);
         }
         return 0;

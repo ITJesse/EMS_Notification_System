@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include "get.h"
 
 int main()
@@ -6,18 +6,18 @@ int main()
     int i,r;
     char a;
     printf("****************************************\n");
-    printf("*        »¶Ó­Ê¹ÓÃÍ¨ÖªÏµÍ³¿Í»§¶Ë        *\n");
+    printf("*        æ¬¢è¿ä½¿ç”¨é€šçŸ¥ç³»ç»Ÿå®¢æˆ·ç«¯        *\n");
     printf("****************************************\n\n");
-    printf("ÕıÔÚ³¢ÊÔµÚ1´ÎÍøÂçÁ¬½Ó£¬ÇëÉÔºò¡­¡­\n\n");
+    printf("æ­£åœ¨å°è¯•ç¬¬1æ¬¡ç½‘ç»œè¿æ¥ï¼Œè¯·ç¨å€™â€¦â€¦\n\n");
     for(i=2;init_mysql()&&i<4;i++)
-        printf("ÕıÔÚ³¢ÊÔµÚ%d´ÎÍøÂçÁ¬½Ó£¬ÇëÉÔºò¡­¡­\n\n",i);
+        printf("æ­£åœ¨å°è¯•ç¬¬%dæ¬¡ç½‘ç»œè¿æ¥ï¼Œè¯·ç¨å€™â€¦â€¦\n\n",i);
     if(i>3) goto End;
     get();
     a=*result_row[0];
     system("cls");
-    printf("½ñÌìµÄÈÎÎñÊÇ£º  \n");
+    printf("ä»Šå¤©çš„ä»»åŠ¡æ˜¯ï¼š  \n");
     printf("%s \n", result_row[2]);
-    printf("·¢²¼ÈÕÆÚ£º  \n");
+    printf("å‘å¸ƒæ—¥æœŸï¼š  \n");
     printf("%s", result_row[4]);
     printf("\n\a");
     Sleep(30000);
@@ -30,10 +30,10 @@ int main()
             r = MessageBox(NULL,TEXT(result_row[3]),TEXT(result_row[2]),MB_OK);
             a =*result_row[0];
             printf("\n%9s\n", result_row[3]);
-            printf("\n·¢²¼Ê±¼ä%10s\n", result_row[5]);
+            printf("\nå‘å¸ƒæ—¶é—´%10s\n", result_row[5]);
         }
     Sleep(30000);
     }
-End:r = MessageBox(NULL,TEXT("ÎŞ·¨Á¬½Ó£¬Çë¼ì²éÍøÂç¡­¡­"),TEXT("±¨´í"),MB_OK);;
+End:r = MessageBox(NULL,TEXT("æ— æ³•è¿æ¥ï¼Œè¯·æ£€æŸ¥ç½‘ç»œâ€¦â€¦"),TEXT("æŠ¥é”™"),MB_OK);;
 }
 

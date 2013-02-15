@@ -1,4 +1,4 @@
-/*╩¤╛▌┐т┴м╜╙╙├║ъ*/
+я╗┐/*цХ░цНох║Уш┐ЮцОечФихоП*/
 #define HOST "198.71.90.102"
 #define USERNAME "whdz"
 #define PASSWORD "zyb940708"

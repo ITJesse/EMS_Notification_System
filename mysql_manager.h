@@ -1,42 +1,42 @@
-#include <winsock2.h>
+ï»¿#include <winsock2.h>
 #include "./include/mysql.h"
 #include "mysql_config.h"
 #include <windows.h>
 
-MYSQL my_connection; /*ÕâÊÇÒ»¸öÊı¾İ¿âÁ¬½Ó*/
-MYSQL_RES *res_opt; /*Ö¸Ïò²éÑ¯½á¹ûµÄÖ¸Õë*/
+MYSQL my_connection; /*è¿™æ˜¯ä¸€ä¸ªæ•°æ®åº“è¿æ¥*/
+MYSQL_RES *res_opt; /*æŒ‡å‘æŸ¥è¯¢ç»“æœçš„æŒ‡é’ˆ*/
 
 int init_mysql()
 {
     mysql_init(&my_connection);
     if(!mysql_real_connect(&my_connection, HOST, USERNAME, PASSWORD, DATABASE, 3306, NULL, 0))
     {
-        printf("Á¬½ÓMySQLÊ§°Ü£¡  Çë¼ì²éÍøÂçÁ¬½Ó¡£\n\n");
+        printf("è¿æ¥MySQLå¤±è´¥ï¼  è¯·æ£€æŸ¥ç½‘ç»œè¿æ¥ã€‚\n\n");
         return 1;
     }
     else
     {
-        printf("\nÁ¬½ÓMySQL³É¹¦£¡\n");
+        printf("\nè¿æ¥MySQLæˆåŠŸï¼\n");
         return 0;
     }
 }
 
 void query_sql(char* dz_sql)
 {
-    int res; /*Ö´ĞĞsqlÕZ¾äºóµÄ·µ»Ø±êÖ¾*/
+    int res; /*æ‰§è¡Œsqlèªå¥åçš„è¿”å›æ ‡å¿—*/
     mysql_query(&my_connection, "set names gbk");
     res = mysql_query(&my_connection, dz_sql);
-    if (res)   /*Ö´ĞĞÊ§°Ü*/
+    if (res)   /*æ‰§è¡Œå¤±è´¥*/
     {
-        printf("Error£º mysql_query !\n");
+        printf("Errorï¼š mysql_query !\n");
 
 
     }
-    else     /*ÏÖÔÚ¾Í´ú±íÖ´ĞĞ³É¹¦ÁË*/
+    else     /*ç°åœ¨å°±ä»£è¡¨æ‰§è¡ŒæˆåŠŸäº†*/
     {
-        /*½«²éÑ¯µÄ½Y¹û¸øres_ptr*/
+        /*å°†æŸ¥è¯¢çš„çµæœç»™res_ptr*/
         res_opt = mysql_store_result(&my_connection);
-        /*Èç¹û½á¹û²»Îª¿Õ£¬¾Í°Ñ½á¹ûÊä³ö*/
+        /*å¦‚æœç»“æœä¸ä¸ºç©ºï¼Œå°±æŠŠç»“æœè¾“å‡º*/
     }
 }
 
