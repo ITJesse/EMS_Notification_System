@@ -1,12 +1,10 @@
-﻿#include <winsock2.h>
+﻿#include "winsock2.h"
 #include "./include/mysql.h"
 #include "mysql_config.h"
-#include <windows.h>
+#include "windows.h"
 
 MYSQL my_connection; /*这是一个数据库连接*/
 MYSQL_RES *res_opt; /*指向查询结果的指针*/
-
-/*测试修改*/
 
 int init_mysql()
 {
@@ -25,20 +23,14 @@ int init_mysql()
 
 void query_sql(char* dz_sql)
 {
-    int res; /*执行sql語句后的返回标志*/
     mysql_query(&my_connection, "set names gbk");
-    res = mysql_query(&my_connection, dz_sql);
-    if (res)   /*执行失败*/
+    for(;mysql_query(&my_connection, dz_sql);)
     {
-        printf("Error： mysql_query !\n");
-
-
+        mysql_close(&my_connection);
+        printf("\nError: 获取数据失败!\n\n正在重新获取，请稍候……\n");
+        for(;mysql_query(&my_connection, dz_sql);)
+            Sleep(3000);
     }
-    else     /*现在就代表执行成功了*/
-    {
-        /*将查询的結果给res_ptr*/
-        res_opt = mysql_store_result(&my_connection);
-        /*如果结果不为空，就把结果输出*/
-    }
+    res_opt = mysql_store_result(&my_connection);
 }
 
