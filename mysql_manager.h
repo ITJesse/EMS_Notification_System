@@ -6,6 +6,8 @@
 MYSQL my_connection; /*这是一个数据库连接*/
 MYSQL_RES *res_opt; /*指向查询结果的指针*/
 
+/*测试修改*/
+
 int init_mysql()
 {
     mysql_init(&my_connection);
