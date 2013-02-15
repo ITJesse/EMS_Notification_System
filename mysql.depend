@@ -1,0 +1,115 @@
+# depslib dependency file v1.0
+1360774770 source:d:\hs\mysql\main.cpp
+	<stdio.h>
+	"get.h"
+
+1360773857 d:\hs\mysql\get.h
+	"mysql_manager.h"
+
+1360774605 d:\hs\mysql\mysql_manager.h
+	<winsock2.h>
+	"./include/mysql.h"
+	"mysql_config.h"
+	<windows.h>
+
+1129991724 d:\hs\mysql\include\mysql.h
+	<sys/types.h>
+	<winsock.h>
+	"mysql_com.h"
+	"mysql_time.h"
+	"mysql_version.h"
+	"typelib.h"
+	"my_list.h"
+	"my_alloc.h"
+
+1129991724 d:\hs\mysql\include\mysql_com.h
+
+1129991724 d:\hs\mysql\include\mysql_time.h
+
+1129991724 d:\hs\mysql\include\mysql_version.h
+	<custom_conf.h>
+
+1129991726 d:\hs\mysql\include\typelib.h
+
+1129991726 d:\hs\mysql\include\my_list.h
+
+1129991724 d:\hs\mysql\include\my_alloc.h
+
+1360760258 d:\hs\mysql\mysql_config.h
+
+1360777513 source:d:\武汉大政录入工程软件\mysql\main.cpp
+	<stdio.h>
+	"get.h"
+
+1360777087 d:\武汉大政录入工程软件\mysql\get.h
+	"mysql_manager.h"
+
+1360777087 d:\武汉大政录入工程软件\mysql\mysql_manager.h
+	<winsock2.h>
+	"./include/mysql.h"
+	"mysql_config.h"
+	<windows.h>
+
+1129991724 d:\武汉大政录入工程软件\mysql\include\mysql.h
+	<sys/types.h>
+	<winsock.h>
+	"mysql_com.h"
+	"mysql_time.h"
+	"mysql_version.h"
+	"typelib.h"
+	"my_list.h"
+	"my_alloc.h"
+
+1129991724 d:\武汉大政录入工程软件\mysql\include\mysql_com.h
+
+1129991724 d:\武汉大政录入工程软件\mysql\include\mysql_time.h
+
+1129991724 d:\武汉大政录入工程软件\mysql\include\mysql_version.h
+	<custom_conf.h>
+
+1129991726 d:\武汉大政录入工程软件\mysql\include\typelib.h
+
+1129991726 d:\武汉大政录入工程软件\mysql\include\my_list.h
+
+1129991724 d:\武汉大政录入工程软件\mysql\include\my_alloc.h
+
+1360760258 d:\武汉大政录入工程软件\mysql\mysql_config.h
+
+1360830802 source:c:\users\zym\desktop\武汉大政工程\通知系统工程\main.cpp
+	<stdio.h>
+	"get.h"
+
+1360830641 c:\users\zym\desktop\武汉大政工程\通知系统工程\get.h
+	"mysql_manager.h"
+
+1360777088 c:\users\zym\desktop\武汉大政工程\通知系统工程\mysql_manager.h
+	<winsock2.h>
+	"./include/mysql.h"
+	"mysql_config.h"
+	<windows.h>
+
+1129991724 c:\users\zym\desktop\武汉大政工程\通知系统工程\include\mysql.h
+	<sys/types.h>
+	<winsock.h>
+	"mysql_com.h"
+	"mysql_time.h"
+	"mysql_version.h"
+	"typelib.h"
+	"my_list.h"
+	"my_alloc.h"
+
+1129991724 c:\users\zym\desktop\武汉大政工程\通知系统工程\include\mysql_com.h
+
+1129991724 c:\users\zym\desktop\武汉大政工程\通知系统工程\include\mysql_time.h
+
+1129991724 c:\users\zym\desktop\武汉大政工程\通知系统工程\include\mysql_version.h
+	<custom_conf.h>
+
+1129991726 c:\users\zym\desktop\武汉大政工程\通知系统工程\include\typelib.h
+
+1129991726 c:\users\zym\desktop\武汉大政工程\通知系统工程\include\my_list.h
+
+1129991724 c:\users\zym\desktop\武汉大政工程\通知系统工程\include\my_alloc.h
+
+1360760260 c:\users\zym\desktop\武汉大政工程\通知系统工程\mysql_config.h
+
