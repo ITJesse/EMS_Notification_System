@@ -13,3 +13,5 @@
 *.a
 
 obj
+bin
+mysql_config.h
